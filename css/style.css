@@ -80,6 +80,13 @@ html,body
     overflow-x: hidden; 
 }
 
+.box1 {
+	background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    opacity: .5;
+	padding-left: 2%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background: #4834d4;
