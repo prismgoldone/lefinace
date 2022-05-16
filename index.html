@@ -703,6 +703,19 @@
                             <dd>
                                 <p>There are totall 5 Billion LeFinace coins available in total.</p>
                             </dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.5s">How to Add LFT in wallet & Contract Address</dt>
+                            <dd>
+                                <p><b>Step 1</b><br/>Open your WALLET and search for 'LFT' then add custom token<br/>
+								<b>Step 2</b><br/>
+								Network: Smart Chain, Paste 'Contract Address'. Name: LeFinace, Symbol: LFT, Decimals: 9. Select <b>Done</b><br/>
+								<b>Step 3</b><br/>Copy the 'Deposit Address', then paste it in 'Claim Address Field'.</p><br/>
+								<!-- The text field -->
+						<input type="text" value="0x524bd9ac8943c3AcbDC439B72a796b18295C38aB" id="myInput">
+
+						<!-- The button used to copy the text -->
+						<button onclick="myFunction()"> Copy </button>
+                            </dd>
                         </dl>
                     </div>
                 </div>
@@ -808,6 +821,21 @@
 
     <!-- script js -->
     <script src="js/script.js"></script>
+	
+	<script>function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}</script>
 
 </body>
 

@@ -9,6 +9,8 @@
             $(this).remove();
         });
     });
+	
+	
 
     // :: Carousel Active Code
     if ($.fn.owlCarousel) {
