@@ -5,7 +5,7 @@
 
     // :: Preloader Active Code
     $window.on('load', function () {
-        $('#preloader').fadeOut('1000', function () {
+        $('#preloader').fadeOut('700', function () {
             $(this).remove();
         });
     });
