@@ -10,16 +10,6 @@
         });
     });
 
-    // :: Sticky Active Code
-    $window.on('scroll', function () {
-        if ($window.scrollTop() > 0) {
-            $('.header-area').addClass('sticky');
-        } else {
-            $('.header-area').removeClass('sticky');
-        }
-    });
-
-
     // :: Carousel Active Code
     if ($.fn.owlCarousel) {
         var welcomeSlider = $('.welcome_slides');
